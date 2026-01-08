@@ -61,3 +61,63 @@ nav .menu a{
 }
  /* nav bar ends here  */
 
+
+
+.green-circles{
+    width: 16px;
+height: 16px;
+
+}
+
+.ea-button{
+    margin-top: 38px;
+    margin-bottom: 16px;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    color: #ffffff;
+    background-color: #a2065c;
+    display:flex ;
+    align-items: center;
+    gap: 6px;
+    width: 230px;
+    height: 35px;
+    justify-content: center;
+
+} 
+
+.ea-button h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+ }
+
+.hero-text h1{
+    color: rgb(0, 0, 0) ;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.hero-text h1 span{
+    color: #469165;
+}
+
+.hero-text p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    align-self: center;
+}
+
