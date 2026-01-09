@@ -346,6 +346,8 @@ letter-spacing: 0%;
 }
 
 .main-content .m-btn{
+    border: 0px;
+    border-radius: 4px;
     cursor: pointer;
   width: 194px;
 height: 52px;
@@ -361,6 +363,7 @@ letter-spacing: 0%;
 text-transform: capitalize;
 }
 .p7{
+    color: #627382;
   padding-top: 16px;
   font-family: Inter;
 font-style: Regular;
