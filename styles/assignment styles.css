@@ -62,13 +62,14 @@ nav .menu a{
  /* nav bar ends here  */
 
 
-
+/* hero sec items  */
 .green-circles{
     width: 16px;
 height: 16px;
 
 }
 
+ /* early access button  */
 .ea-button{
     margin-top: 115px;
     margin-bottom: 10px;
@@ -82,14 +83,15 @@ height: 16px;
     width: 230px;
     height: 35px;
     justify-content: center;
-
 } 
 
 .ea-button h3{
     font-size: 16px;
     font-weight: 500;
 }
+ /* early access button  */
 
+ /* hero sec texts  */
 .hero-text{
     align-items: center;
     display: flex;
@@ -103,7 +105,7 @@ height: 16px;
     font-size: 72px;
     font-weight: bold;
     line-height: 84px;
-    margin-top: 16px;
+    margin-top: 12px;
     margin-bottom: 16px;
 }
 
@@ -121,13 +123,14 @@ height: 16px;
     margin-bottom: 32px;
     align-self: center;
 }
+ /* hero sec texts  */
 
 .hero-image{
     height: 600px;
     width: 1400px;
 }
 
-
+/* hero sec btns  */
 .cta-btn{
     display: flex;
     gap: 16px;
@@ -167,4 +170,95 @@ height: 16px;
     padding-right: 16px;
     cursor: pointer;
     
+}
+/* hero sec btns  */
+
+.section-heading h1{
+    color: #001931 ;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-top: 68px;
+    margin-bottom: 16px;
+}
+
+.section-heading h2{
+    color: #627382 ;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+/* ------------------------------------------------- */
+.heading-section h1{
+    margin-left: 120px;
+    margin-top: 80px;
+    font-size: 48px;
+    font-style: bold;
+    text-align: center;
+    align-items: center;
+    color: #001931;
+}
+
+.heading-section p{
+    margin-left: 120px;
+    margin-top: 16px;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: center;
+    align-items: center;
+    color: #627382;
+
+}
+
+.cards-main {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 40px;
+  margin-left: 164px;
+  margin-right: 164px;
+}
+
+.card-container {
+  width: 322px;
+  height: 300px;
+  padding: 48px 32px;
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.icon-circle {
+  width: 48px;
+  height: 48px;
+  background: #ff4d4f;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle img {
+  width: 26px;
+  height: 26px;
+}
+
+.card-container h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-container p {
+  font-size: 16px;
+  margin-top: 16px;
+color: rgba(98, 115, 130, 1);
 }
