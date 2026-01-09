@@ -262,3 +262,46 @@ height: 16px;
   margin-top: 16px;
 color: rgba(98, 115, 130, 1);
 }
+
+
+/* ----------------------------------------------- */
+
+.section-three{
+    display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+
+.sec-three-texts{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    max-width: 700;
+}
+
+.sec-three-texts h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.sec-three-texts h1{
+    margin-bottom: 16px;
+    color: #001931;
+    text-align: center;
+}
+
+
+.sec-three-texts p{
+    color: #627382;
+    text-align: center;
+}
+
+
+.sec-three-texts ul{
+    margin-top: 40px;
+    color: #469165;
+    text-align: left;
+}
